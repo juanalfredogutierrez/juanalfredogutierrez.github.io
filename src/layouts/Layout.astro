@@ -4,20 +4,100 @@ import "../styles/global.css";
 
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" href="/favicon.ico" />
 
-		<meta
-			name="description"
-			content="Juan Alfredo Gutierrez - Senior Software Engineer, Tech Lead, .NET, Azure, Microservices and AI Solutions"
-		/>
+<head>
 
-		<title>Juan Alfredo Gutierrez | Portfolio</title>
-	</head>
+  <meta charset="UTF-8" />
 
-	<body class="bg-slate-950 text-slate-100">
-		<slot />
-	</body>
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  />
+
+  <!-- SEO -->
+
+  <title>
+    Juan Alfredo Gutierrez | Software Architect | .NET | Azure
+  </title>
+
+  <meta
+    name="description"
+    content="Senior Software Engineer and Software Architect specializing in .NET, Azure, Cloud-Native Platforms, Microservices, Distributed Systems and AI Solutions."
+  />
+
+  <meta
+    name="keywords"
+    content=".NET, Azure, Software Architect, Microservices, Cloud Native, Kubernetes, CQRS, DDD, Event Driven Architecture, AI Solutions"
+  />
+
+  <meta
+    name="author"
+    content="Juan Alfredo Gutierrez"
+  />
+
+  <!-- Open Graph -->
+
+  <meta
+    property="og:title"
+    content="Juan Alfredo Gutierrez | Software Architect"
+  />
+
+  <meta
+    property="og:description"
+    content="Cloud-Native Platforms, Distributed Systems, Microservices and AI Solutions built with .NET and Azure."
+  />
+
+  <meta
+    property="og:image"
+    content="https://juanalfredogutierrez.github.io/og-image.png"
+  />
+
+  <meta
+    property="og:url"
+    content="https://juanalfredogutierrez.github.io"
+  />
+
+  <meta
+    property="og:type"
+    content="website"
+  />
+
+  <!-- Twitter -->
+
+  <meta
+    name="twitter:card"
+    content="summary_large_image"
+  />
+
+  <meta
+    name="twitter:title"
+    content="Juan Alfredo Gutierrez | Software Architect"
+  />
+
+  <meta
+    name="twitter:description"
+    content="Cloud-Native Platforms, Distributed Systems, Microservices and AI Solutions."
+  />
+
+  <meta
+    name="twitter:image"
+    content="https://juanalfredogutierrez.github.io/og-image.png"
+  />
+
+  <!-- Icons -->
+
+  <link
+    rel="icon"
+    type="image/png"
+    href="/favicon.ico"
+  />
+
+</head>
+
+<body class="bg-slate-950 text-slate-100">
+
+  <slot />
+
+</body>
+
 </html>
