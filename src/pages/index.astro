@@ -1,0 +1,439 @@
+---
+import Layout from "../layouts/Layout.astro";
+import avatar from "../assets/avatar.png";
+---
+
+<Layout>
+ <main class="bg-slate-950 text-white">
+
+    <section class="max-w-6xl mx-auto px-6 py-16">
+
+      <div class="flex flex-col items-center text-center">
+
+        <img
+          src={avatar.src}
+          alt="Juan Alfredo Gutierrez"
+          class="w-32 h-32 rounded-full border-4 border-cyan-400 shadow-lg"
+        />
+          <h1 class="mt-8 text-5xl md:text-6xl font-bold text-cyan-400">
+          Juan Alfredo Gutierrez
+        </h1>
+
+        <h2 class="mt-4 text-2xl text-slate-300">
+          Senior Software Engineer • Software Architect
+        </h2>
+
+        <p class="mt-6 max-w-3xl text-lg text-slate-400">
+          Building cloud-native platforms, distributed systems,
+          microservices and AI-powered solutions using .NET,
+          Azure and modern software architecture.
+        </p>
+
+        <div class="mt-8 flex gap-4">
+
+          <a
+            href="https://github.com/juanalfredogutierrez"
+            target="_blank"
+            class="px-6 py-3 bg-cyan-500 rounded-lg font-semibold hover:bg-cyan-600"
+          >
+            GitHub
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/juanalfredogutierrezb0b127210"
+            target="_blank"
+            class="px-6 py-3 border border-slate-600 rounded-lg hover:border-cyan-400"
+          >
+            LinkedIn
+          </a>
+
+        </div>
+
+      </div>
+<!-- Quick Stats -->
+<div class="mt-14 grid grid-cols-1 md:grid-cols-3 gap-6 w-full max-w-4xl mx-auto">
+
+  <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 text-center">
+    <h3 class="text-4xl font-bold text-cyan-400">6+</h3>
+    <p class="mt-2 text-slate-300">Years Experience</p>
+  </div>
+
+  <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 text-center">
+    <h3 class="text-4xl font-bold text-cyan-400">10+</h3>
+    <p class="mt-2 text-slate-300">Enterprise Projects</p>
+  </div>
+
+  <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 text-center">
+    <h3 class="text-4xl font-bold text-cyan-400">Cloud</h3>
+    <p class="mt-2 text-slate-300">.NET • Azure • AI</p>
+  </div>
+
+</div>
+
+
+    <!-- Featured Projects -->
+
+<section class="max-w-7xl mx-auto px-6 py-10">
+
+  <div class="text-center mb-12">
+    <h2 class="text-4xl font-bold text-cyan-400">
+      Featured Projects
+    </h2>
+
+    <p class="mt-4 text-slate-400">
+      Enterprise platforms, cloud-native architectures and AI-powered solutions.
+    </p>
+  </div>
+
+  <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+
+    <!-- Core Banking -->
+<!-- Core Banking -->
+
+<div class="bg-slate-900 rounded-2xl p-6 border border-slate-800 hover:border-cyan-400 transition flex flex-col h-full">
+
+  <h3 class="text-2xl font-bold text-white min-h-[64px]">
+    Core Banking Platform
+  </h3>
+
+  <p class="mt-4 text-slate-400">
+    Enterprise banking platform showcasing Microservices, Domain-Driven Design,
+    distributed transactions and asynchronous communication patterns for
+    mission-critical financial systems.
+  </p>
+
+  <div class="mt-4 flex flex-wrap gap-2">
+
+    <span class="px-3 py-1 bg-slate-800 rounded-full text-sm">.NET 8</span>
+
+    <span class="px-3 py-1 bg-slate-800 rounded-full text-sm">RabbitMQ</span>
+
+    <span class="px-3 py-1 bg-slate-800 rounded-full text-sm">Docker</span>
+
+    <span class="px-3 py-1 bg-slate-800 rounded-full text-sm">Microservices</span>
+
+  </div>
+
+  <a
+    href="https://github.com/juanalfredogutierrez/CoreBanking.Microservices"
+    target="_blank"
+    class="inline-block mt-6 text-cyan-400 hover:text-cyan-300"
+  >
+    Explore Solution →
+  </a>
+
+</div>
+
+<!-- Retail Inventory -->
+<div class="bg-slate-900 rounded-2xl p-6 border border-slate-800 hover:border-cyan-400 transition flex flex-col h-full">
+
+
+  <h3 class="text-2xl font-bold text-white min-h-[64px]">
+   Retail Inventory Platform
+  </h3>
+
+  <p class="mt-4 text-slate-400">
+    Cloud-native inventory management platform demonstrating CQRS,
+    Domain-Driven Design and Event-Driven Architecture for scalable
+    retail operations.
+  </p>
+
+  <div class="mt-4 flex flex-wrap gap-2">
+
+    <span class="px-3 py-1 bg-slate-800 rounded-full text-sm">CQRS</span>
+
+    <span class="px-3 py-1 bg-slate-800 rounded-full text-sm">DDD</span>
+
+    <span class="px-3 py-1 bg-slate-800 rounded-full text-sm">RabbitMQ</span>
+
+    <span class="px-3 py-1 bg-slate-800 rounded-full text-sm">Azure</span>
+
+  </div>
+
+  <a
+    href="https://github.com/juanalfredogutierrez"
+    target="_blank"
+    class="inline-block mt-6 text-cyan-400 hover:text-cyan-300"
+  >
+    Explore Solution →
+  </a>
+
+</div>
+
+<!-- Agentic AI -->
+
+<div class="bg-slate-900 rounded-2xl p-6 border border-slate-800 hover:border-cyan-400 transition flex flex-col h-full">
+
+
+  <h3 class="text-2xl font-bold text-white min-h-[64px]">
+     Agentic AI Platform
+  </h3>
+
+  <p class="mt-4 text-slate-400">
+    Modern AI platform combining RAG, Agentic AI and Large Language Models
+    to enable semantic search, knowledge retrieval and intelligent
+    enterprise assistants.
+  </p>
+
+  <div class="mt-4 flex flex-wrap gap-2">
+
+    <span class="px-3 py-1 bg-slate-800 rounded-full text-sm">OpenAI</span>
+
+    <span class="px-3 py-1 bg-slate-800 rounded-full text-sm">Gemini</span>
+
+    <span class="px-3 py-1 bg-slate-800 rounded-full text-sm">RAG</span>
+
+    <span class="px-3 py-1 bg-slate-800 rounded-full text-sm">Agentic AI</span>
+
+  </div>
+
+  <a
+    href="https://github.com/juanalfredogutierrez"
+    target="_blank"
+    class="inline-block mt-6 text-cyan-400 hover:text-cyan-300"
+  >
+   Explore Solution →
+  </a>
+
+</div>
+
+
+
+  </div>
+<!-- Current Focus -->
+
+<section class="max-w-7xl mx-auto px-6 py-10">
+
+  <div class="text-center mb-12">
+
+    <h2 class="text-4xl font-bold text-cyan-400">
+      Current Focus
+    </h2>
+
+    <p class="mt-4 text-slate-400">
+      Technologies, platforms and initiatives I am actively working on.
+    </p>
+
+  </div>
+
+  <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+
+    <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 hover:border-cyan-400 transition">
+
+      <h3 class="text-xl font-semibold text-white">
+        ECommerce Platform
+      </h3>
+
+      <p class="mt-3 text-slate-400">
+        Cloud-native e-commerce platform built with Microservices and Event-Driven Architecture.
+      </p>
+
+    </div>
+
+    <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 hover:border-cyan-400 transition">
+
+      <h3 class="text-xl font-semibold text-white">
+        Agentic AI Solutions
+      </h3>
+
+      <p class="mt-3 text-slate-400">
+        RAG, Agents, OpenAI and Gemini integrations for intelligent enterprise applications.
+      </p>
+
+    </div>
+
+    <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 hover:border-cyan-400 transition">
+
+      <h3 class="text-xl font-semibold text-white">
+        Cloud Native Platforms
+      </h3>
+
+      <p class="mt-3 text-slate-400">
+        Azure, Docker and Kubernetes-based solutions designed for scalability and resilience.
+      </p>
+
+    </div>
+
+    <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 hover:border-cyan-400 transition">
+
+      <h3 class="text-xl font-semibold text-white">
+        Observability
+      </h3>
+
+      <p class="mt-3 text-slate-400">
+        OpenTelemetry, Prometheus, Grafana and distributed tracing for production environments.
+      </p>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- Technology Stack -->
+
+<section class="max-w-7xl mx-auto px-6 py-10">
+
+  <div class="text-center mb-12">
+
+    <h2 class="text-4xl font-bold text-cyan-400">
+      Technology Stack
+    </h2>
+
+    <p class="mt-4 text-slate-400">
+      Technologies I use to design, build and deploy modern software solutions.
+    </p>
+
+  </div>
+
+  <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+
+    <div class="bg-slate-900 p-6 rounded-2xl border border-slate-800">
+      <h3 class="text-xl font-semibold mb-4">Backend</h3>
+
+      <ul class="space-y-2 text-slate-300">
+        <li>.NET 8</li>
+        <li>ASP.NET Core</li>
+        <li>Entity Framework Core</li>
+        <li>Dapper</li>
+      </ul>
+    </div>
+
+    <div class="bg-slate-900 p-6 rounded-2xl border border-slate-800">
+      <h3 class="text-xl font-semibold mb-4">Cloud & DevOps</h3>
+
+      <ul class="space-y-2 text-slate-300">
+        <li>Azure</li>
+        <li>Docker</li>
+        <li>Kubernetes</li>
+        <li>GitHub Actions</li>
+      </ul>
+    </div>
+
+    <div class="bg-slate-900 p-6 rounded-2xl border border-slate-800">
+      <h3 class="text-xl font-semibold mb-4">Messaging</h3>
+
+      <ul class="space-y-2 text-slate-300">
+        <li>RabbitMQ</li>
+        <li>Kafka</li>
+        <li>Azure Service Bus</li>
+        <li>Event-Driven Architecture</li>
+      </ul>
+    </div>
+
+    <div class="bg-slate-900 p-6 rounded-2xl border border-slate-800">
+      <h3 class="text-xl font-semibold mb-4">AI & Frontend</h3>
+
+      <ul class="space-y-2 text-slate-300">
+        <li>OpenAI</li>
+        <li>Gemini</li>
+        <li>Angular</li>
+        <li>React</li>
+      </ul>
+    </div>
+
+  </div>
+
+</section>
+<!-- Architecture Expertise -->
+
+<section class="max-w-7xl mx-auto px-6 py-10">
+
+  <div class="text-center mb-12">
+
+    <h2 class="text-4xl font-bold text-cyan-400">
+      Architecture Expertise
+    </h2>
+
+    <p class="mt-4 text-slate-400">
+      Patterns, practices and principles applied across enterprise solutions.
+    </p>
+
+  </div>
+
+  <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+    <div class="bg-slate-900 p-6 rounded-xl">
+      Clean Architecture
+    </div>
+
+    <div class="bg-slate-900 p-6 rounded-xl">
+      Hexagonal Architecture
+    </div>
+
+    <div class="bg-slate-900 p-6 rounded-xl">
+      Domain Driven Design
+    </div>
+
+    <div class="bg-slate-900 p-6 rounded-xl">
+      CQRS
+    </div>
+
+    <div class="bg-slate-900 p-6 rounded-xl">
+      Event Driven Architecture
+    </div>
+
+    <div class="bg-slate-900 p-6 rounded-xl">
+      Microservices
+    </div>
+
+  </div>
+
+</section>
+<!-- Footer -->
+<footer class="border-t border-slate-800 mt-16">
+
+  <div class="max-w-7xl mx-auto px-6 py-10 text-center">
+
+    <h3 class="text-xl font-semibold text-white">
+      Juan Alfredo Gutierrez
+    </h3>
+
+    <p class="mt-2 text-slate-400">
+      Senior Software Engineer | Cloud-Native Architect
+    </p>
+
+    <div class="mt-4 flex flex-wrap justify-center gap-4 text-cyan-400">
+
+      <a
+        href="mailto:jgutierrez_pe@outlook.com"
+        class="hover:text-cyan-300"
+      >
+        jgutierrez_pe@outlook.com
+      </a>
+
+      <span class="text-slate-600">•</span>
+
+      <a
+        href="https://github.com/juanalfredogutierrez"
+        target="_blank"
+        class="hover:text-cyan-300"
+      >
+        GitHub
+      </a>
+
+      <span class="text-slate-600">•</span>
+
+      <a
+        href="https://www.linkedin.com/in/juanalfredogutierrezb0b127210"
+        target="_blank"
+        class="hover:text-cyan-300"
+      >
+        LinkedIn
+      </a>
+
+    </div>
+
+    <p class="mt-6 text-slate-600 text-sm">
+      Lima, Peru
+    </p>
+
+    <p class="mt-2 text-slate-600 text-sm">
+      © 2026 Juan Alfredo Gutierrez. All rights reserved.
+    </p>
+
+  </div>
+
+</footer>
+  </main>
+</Layout>
